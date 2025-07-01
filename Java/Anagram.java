@@ -28,6 +28,8 @@ public class Anagram {
 		else
 			System.out.println("Both String are not anagram");
 
+		sc.close();  //Closing scanner will help prevent resource leak.
+
 	}
 
 }
